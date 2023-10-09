@@ -34,7 +34,7 @@
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     max-width: 350px;
-    width: 50%;
+    width: 60%;
     margin: 15rem auto auto;
     position: relative;
 }
@@ -60,7 +60,7 @@ input[type="number"] {
 .btn-container{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 .btn{
     background-color: rgb(50, 92, 50);
