@@ -57,6 +57,19 @@ input[type="number"] {
     background-color: #f1ebeb;
 }
 
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    background-color: rgb(54, 54, 238);
+}
+
+.btn-container a{
+    text-decoration: none;
+}
+
 button {
     display: flex;
     justify-content: center;
@@ -68,8 +81,9 @@ button {
     border: none;
     padding: 5px 10px;
     cursor: pointer;
-    margin: 10px auto;
+    margin-left: 10px ;
 }
+
 
 button:hover {
     filter: brightness(1.25);
