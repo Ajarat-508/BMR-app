@@ -74,8 +74,9 @@ const onFormSubmit = (e) => {
   const age = Number(form.age.value);
   const gender = form.gender.value;
 
-  if (isNaN(weight) || isNaN(height) || isNaN(age)) {
-    alert("Weight, height and age must be numeric");
+  //if (isNaN(weight) || isNaN(height) || isNaN(age)) 
+  if (weight==0 || height==0 || age==0) {
+    alert("Weight, height and age must be greater than 1");
     return;
   }
 
